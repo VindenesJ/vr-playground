@@ -131,7 +131,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-10482
+  m_Name: pb_Mesh25986
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -222,7 +222,7 @@ Mesh:
       format: 0
       dimension: 0
     m_DataSize: 192
-    _typelessdata: 000000000000000000000000000000000000803f000000000000803f0000000000000000000080bf0000000000000000000000000000000000002042000000000000803f000000000000803f0000000000000000000080bf000000000000204200008c420000000000000000000000000000803f000000000000803f0000000000000000000080bf00008c420000000000008c420000000000002042000000000000803f000000000000803f0000000000000000000080bf00008c4200002042
+    _typelessdata: 000000000000000000000000000000000000803f00000000000080bf0000000000000000000080bf3d0a0cc2000098c1000000000000000000002042000000000000803f00000000000080bf0000000000000000000080bf3d0a0cc20000a0c100008c420000000000000000000000000000803f00000000000080bf0000000000000000000080bf3d0a10c2000098c100008c420000000000002042000000000000803f00000000000080bf0000000000000000000080bf3d0a10c20000a0c1
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 0
@@ -877,7 +877,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 4c32635d0bf968844910ff27840949c8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -917,12 +917,12 @@ MonoBehaviour:
     m_SmoothingGroup: 0
     m_Uv:
       m_UseWorldSpace: 0
-      m_FlipU: 0
-      m_FlipV: 0
+      m_FlipU: 1
+      m_FlipV: 1
       m_SwapUV: 0
-      m_Fill: 1
+      m_Fill: 2
       m_Scale: {x: 1, y: 1}
-      m_Offset: {x: 0, y: 0}
+      m_Offset: {x: 0.51, y: -0.5}
       m_Rotation: 0
       m_Anchor: 9
     m_Material: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
@@ -942,17 +942,17 @@ MonoBehaviour:
   - {x: 70, y: 0, z: 0}
   - {x: 70, y: 0, z: 40}
   m_Textures0:
-  - {x: 0, y: 0}
-  - {x: 0, y: 40}
-  - {x: 70, y: 0}
-  - {x: 70, y: 40}
+  - {x: -35.01, y: -19}
+  - {x: -35.01, y: -20}
+  - {x: -36.01, y: -19}
+  - {x: -36.01, y: -20}
   m_Textures2: []
   m_Textures3: []
   m_Tangents:
-  - {x: 1, y: 0, z: 0, w: -1}
-  - {x: 1, y: 0, z: 0, w: -1}
-  - {x: 1, y: 0, z: 0, w: -1}
-  - {x: 1, y: 0, z: 0, w: -1}
+  - {x: -1, y: 0, z: 0, w: -1}
+  - {x: -1, y: 0, z: 0, w: -1}
+  - {x: -1, y: 0, z: 0, w: -1}
+  - {x: -1, y: 0, z: 0, w: -1}
   m_Colors: []
   m_UnwrapParameters:
     m_HardAngle: 88
